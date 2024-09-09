@@ -37,8 +37,8 @@ This ensures that predictions remain robust, even when some player stats are mis
 ## How the Project Could Be Improved
 
 1. **Incorporating Additional Features**:
-   - **Defensive Metrics**: Using a defensive stats (e.g., tackles, interceptions) dataset from the same season would help better assess a player's overall influence, especially for midfielders.
-   - **Form and Fitness Data**: Including data on recent form, player fitness, and match minutes could further enhance prediction accuracy.
+   - **Defensive Metrics**: Using a defensive stats (e.g., tackles, interceptions) dataset from the same season could help better assess a player's overall influence, especially for midfielders. However, I chose not to integrate this into my project, because I did not want 
+   - **Form and Fitness Data**: Having access to data about recent form and player fitness could further enhance prediction accuracy.
    - **Match Context**: External factors such as home advantage, and fixture congestion could add valuable context to predictions.
 
 2. **Advanced Machine Learning Models**:
