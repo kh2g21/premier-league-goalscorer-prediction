@@ -37,9 +37,9 @@ This ensures that predictions remain robust, even when some player stats are mis
 ## How the Project Could Be Improved
 
 1. **Incorporating Additional Features**:
-   - **Defensive Metrics**: Adding defensive stats (e.g., tackles, interceptions) would help better assess a player's overall influence, especially for midfielders.
+   - **Defensive Metrics**: Using a defensive stats (e.g., tackles, interceptions) dataset from the same season would help better assess a player's overall influence, especially for midfielders.
    - **Form and Fitness Data**: Including data on recent form, player fitness, and match minutes could further enhance prediction accuracy.
-   - **Weather and Match Context**: External factors such as weather, home advantage, and fixture congestion could add valuable context to predictions.
+   - **Match Context**: External factors such as home advantage, and fixture congestion could add valuable context to predictions.
 
 2. **Advanced Machine Learning Models**:
    - Implementing more sophisticated algorithms such as Gradient Boosting, Neural Networks, or ensemble methods could improve predictive accuracy by capturing more complex patterns in the data.
@@ -49,7 +49,7 @@ This ensures that predictions remain robust, even when some player stats are mis
 
 ## Limitations
 
-1. **Limited Feature Set**: The current model only considers shooting, passing, and basic player stats. It does not account for external factors like team strategies, defensive setups, or match-specific conditions.
+1. **Limited Feature Set**: The current model only considers shooting, passing, and basic player stats. It does not account for external factors like team strategies, defensive setups, player confidence/morale or match-specific conditions which are difficult to quantify.
    
 2. **Static Nature**: The model doesn't incorporate real-time updates or player form, which can significantly influence player performance.
 
