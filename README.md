@@ -35,7 +35,7 @@ A custom algorithm is used to distribute goals among players based on their fina
 
 ## Datasets Used
 
-All datasets were sourced from Kaggle. 
+All datasets were sourced from Kaggle. Note that all datasets will need to be in same directory as the Python script to execute successfully.
 
 The [2023_matchday_results.csv dataset](https://www.kaggle.com/datasets/afnanurrahim/premier-league-2022-23)
 
