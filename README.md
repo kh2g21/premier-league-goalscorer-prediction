@@ -1,8 +1,8 @@
-# Football Goalscorer Prediction
+# Premier League Goalscorer Prediction
 
 ## Description
 
-This project predicts football goalscorers for a given match using player performance data. It combines several independent datasets, such as shooting, passing, and overall player statistics, to assess which players are most likely to score in a match. The model processes historical match results and player stats, applies feature engineering, and ranks players based on computed features, such as goal probability, scoring impact, and passing impact. The aim is to provide accurate predictions of who might score in upcoming matches for both home and away teams.
+This project predicts football goalscorers for a given match in the 2022-23 Premier League season using player performance data. It combines several independent datasets, such as shooting, passing, and overall player statistics, to assess which players are most likely to score in a match. The model processes player stats, applies feature engineering, and ranks players based on computed features, such as goal probability, scoring impact, and passing impact. The aim is to provide accurate predictions of who might score in upcoming matches for both home and away teams.
 
 This approach is rooted in the principle that:
 - Players with better historical shooting accuracy, higher expected goals (xG), and active involvement in the attacking play should have a higher probability of scoring.
