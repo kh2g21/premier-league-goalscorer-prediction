@@ -35,6 +35,10 @@ A custom algorithm is used to distribute goals among players based on their fina
 
 ## Datasets Used
 
+All datasets were sourced from Kaggle. 
+
+The [2023_matchday_results.csv dataset](https://www.kaggle.com/datasets/afnanurrahim/premier-league-2022-23)
+The [player_premier_league_shooting.csv, player_premier_league_stats.csv, player_premier_league_passing.csv datasets](https://www.kaggle.com/datasets/mechatronixs/english-premier-league-22-23-season-stats)
 - **`2023_matchday_results.csv `**: Contains the home and away teams and the actual goals scored in each match.
 - **`player_premier_league_shooting.csv`**: Includes player-level shooting metrics such as total shots, goals, and expected goals (xG).
 - **`player_premier_league_stats.csv`**: Provides detailed player statistics, including goals, assists, and expected goals.
