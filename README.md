@@ -8,7 +8,7 @@ This approach is rooted in the principle that:
 - Players with better historical shooting accuracy, higher expected goals (xG), and active involvement in the attacking play should have a higher probability of scoring.
 - Position on the field impacts goal likelihood: forwards are expected to score more frequently than midfielders and defenders.
 - Scoring consistency in real football matches is unpredictable, and our model introduces randomness to mimic this aspect.
-- 
+  
 ## Techniques Used
 
 ### Feature Engineering
@@ -38,7 +38,9 @@ A custom algorithm is used to distribute goals among players based on their fina
 All datasets were sourced from Kaggle. 
 
 The [2023_matchday_results.csv dataset](https://www.kaggle.com/datasets/afnanurrahim/premier-league-2022-23)
+
 The [player_premier_league_shooting.csv, player_premier_league_stats.csv, player_premier_league_passing.csv datasets](https://www.kaggle.com/datasets/mechatronixs/english-premier-league-22-23-season-stats)
+
 - **`2023_matchday_results.csv `**: Contains the home and away teams and the actual goals scored in each match.
 - **`player_premier_league_shooting.csv`**: Includes player-level shooting metrics such as total shots, goals, and expected goals (xG).
 - **`player_premier_league_stats.csv`**: Provides detailed player statistics, including goals, assists, and expected goals.
