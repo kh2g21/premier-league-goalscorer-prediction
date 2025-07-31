@@ -61,10 +61,10 @@ The [player_premier_league_shooting.csv, player_premier_league_stats.csv, player
 
 ## Limitations
 
-1. **Limited Feature Set**: The current model only considers shooting, passing, and basic player statistics. It does not account for external factors like team strategies, defensive setups, player confidence/morale or match-specific conditions which are difficult to quantify.
+1. **Feature set is limited**: The current model only considers shooting, passing, and basic player statistics. It does not account for external factors like team strategies, defensive setups, player confidence/morale or match-specific conditions which are difficult to quantify.
    
-2. **Static Nature**: The model doesn't incorporate real-time in-game events (e.g., substitutions, injuries, red cards) that could drastically change goal-scoring probabilities.
+2. **Static nature of  dataset**: The model doesn't incorporate real-time in-game events (e.g., substitutions, injuries, red cards) that could drastically change goal-scoring probabilities.
 
-3. **Bias in Data Used**: Players with limited playtime or involvement may not have sufficient data points, which can lead to under-representation in predictions. Furthermore, the datasets used are limited to the 2022-23 season only; therefore underlying historical trends will be missed (e.g player's historical performance against opponent)
+3. **Possible data bias**: Players with limited playtime or involvement may not have sufficient data points, which can lead to under-representation in predictions. Furthermore, the datasets used are limited to the 2022-23 season only; therefore underlying historical trends will be missed (e.g player's historical performance against opponent)
 
 By addressing these limitations, the model could provide even more accurate and insightful predictions for football match outcomes.
